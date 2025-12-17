@@ -41,3 +41,11 @@
   color: #888;
 }
 
+.starRating{
+  display: flex;
+}
+
+.starRating img{
+  width: 50px;
+  height: 50px;
+}
