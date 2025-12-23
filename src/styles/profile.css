@@ -1,0 +1,65 @@
+.profileContainer{
+  max-width: 800px;
+  margin: 32px auto;
+  padding: 32px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+  display: flex;
+  align-items: flex-start;
+  gap: 32px;
+}
+
+.profileInfo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.profileInfo h1{
+  font-size: 29px;
+  margin: 0;
+  color: #2c3e50;
+}
+
+.profileInfo h3{
+  font-size: 19px;
+  font-weight: 400;
+  color: #555;
+  margin: 8px 0 16px 0;
+}
+
+.profileContainer .MuiAvatar-root{
+  width: 120px;
+  height: 120px;
+  border: 3px solid #1abc9c;
+}
+
+.favoriteContainer{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 16px;
+  max-width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+.favorite{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.favoriteContainer .MuiAvatar-root{
+  width: 70px;
+  height: 70px;
+  border: 2px solid #1abc9c;
+}
+
+.favorite p{
+  font-size: 14px;
+  margin-top: 6px;
+  color: #333;
+}

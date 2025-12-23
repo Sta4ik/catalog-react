@@ -14,7 +14,7 @@ function Favorite(){
     return (
         <div className='favoriteContainer'>
             {favorite.map(item => (
-                <div key={item.title}>
+                <div className='favorite'>
                     <Avatar src={item.img} />
                     <p>{item.title}</p>
                 </div>

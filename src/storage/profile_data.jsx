@@ -2,9 +2,9 @@ import ava from "../assets/ava.jpg"
 
 export let users = [
     {
-      name: "admin",
+      name: "Kotik",
       pasword: "1234",
-      info:"admin",
+      info:"Самый крутой кот на диком западе.",
       image: ava,
       favorite: [],
     }

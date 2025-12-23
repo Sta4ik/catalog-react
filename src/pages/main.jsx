@@ -22,7 +22,7 @@ function Main(){
 
     return(
         <>
-            <div>
+            <div className="genreBar">
                 {genres.map(item => {
                     return(
                         <>
@@ -32,12 +32,12 @@ function Main(){
                 })}
             </div>
             {filterMovies.map((item)=>{
-                return(<>
+                return( <div className="movieCard">
                             <NavLink className={"title"} to={'/'+ item.title}>
                                 <h2>{item.title}</h2>
                                 <img  src={item.img}/>
                             </NavLink>
-                            </>
+                        </div>
                         )})} 
         </>          
     )

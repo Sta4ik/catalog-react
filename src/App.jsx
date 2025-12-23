@@ -1,4 +1,4 @@
-import './App.css'
+import './styles/app.css'
 import {
   Route,
   Routes,
@@ -14,7 +14,7 @@ function App() {
   
   return (
     <HashRouter>
-      <div>
+      <div className="mainBar">
         <NavLink to='/main'>MAIN</NavLink>
         <NavLink to='/profile'>PROFILE</NavLink>
       </div>

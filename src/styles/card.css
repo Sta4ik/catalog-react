@@ -1,0 +1,72 @@
+.cardContainer{
+  max-width: 600px;
+  margin: 32px auto;
+  padding: 24px;
+  background-color: #ffffff;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.cardContainer h2{
+  font-size: 26px;
+  margin-bottom: 16px;
+  color: #2c3e50;
+}
+
+.cardDetails{
+  margin-bottom: 16px;
+  text-align: left;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #555;
+}
+
+.cardDetails p{
+  margin: 5px 0;
+}
+
+.cardContainer img{
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin: 16px 0;
+}
+
+.cardFavorite{
+  margin: 16px 0;
+}
+
+.cardFavorite button{
+  border-radius: 50%;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.cardFavorite button:hover{
+  background-color: #1abc9c;
+  color: #fff;
+  transform: scale(1.1);
+}
+
+.starRating{
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  margin-top: 16px;
+}
+
+.starRating img{
+  width: 28px;
+  height: 28px;
+  object-fit: contain;
+}
+
+.MuiToggleButton-root.Mui-selected {
+  background-color: lightgreen !important; 
+  color: black !important;
+}
+
+.MuiToggleButton-root.Mui-selected:hover {
+  background-color: green !important;
+  color: white !important;
+}
